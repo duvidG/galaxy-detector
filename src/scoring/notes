@@ -1,0 +1,8 @@
+instead of retaining only the best matching source, we retain any that are within conv_size and freq_size in ra/dec and freq respectively
+the search radius is set by the sub catalogue, but the error on position is normalised using the truth catalogue
+factor 4?? a calibration factor:
+
+list of calibration factors:
+in sieve, normalisation factors
+in score helper, factor 4
+score thresholds for each property

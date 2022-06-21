@@ -1,0 +1,37 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sphinx-autobuild = "*"
+flake8 = "*"
+black = "*"
+pep8-naming = "*"
+pylint = "*"
+pylint2junit = "*"
+pylint-junit = "*"
+pydocstyle = "*"
+pycodestyle = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-pylint = "*"
+pytest-pycodestyle = "*"
+pytest-pydocstyle = "*"
+pytest-html = "*"
+pytest-json-report = "*"
+pytest-black = "*"
+
+[packages]
+astropy = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+
+[requires]
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true
