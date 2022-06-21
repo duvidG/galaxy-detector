@@ -1,2 +1,1 @@
 autodocsumm
-sphinx-rtd-theme
